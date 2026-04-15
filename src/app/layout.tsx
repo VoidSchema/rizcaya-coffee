@@ -14,8 +14,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Rizcaya Coffee | Artisanal Coffee Roasters",
-  description: "Sophisticated, handcrafted coffee for the true connoisseur.",
+  title: "The Daily Grind | Crafted Coffee, Curated Moments",
+  description: "A premium artisanal coffee experience for the modern connoisseur.",
 };
 
 export default function RootLayout({

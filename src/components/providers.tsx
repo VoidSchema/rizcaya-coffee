@@ -2,6 +2,8 @@
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
+import { Navbar } from "./navbar";
+import { CartDrawer } from "./cart-drawer";
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const [queryClient] = useState(() => new QueryClient({
@@ -12,8 +14,12 @@ export function Providers({ children }: { children: React.ReactNode }) {
     },
   }));
 
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
   return (
     <QueryClientProvider client={queryClient}>
+      <Navbar onOpenCart={() => setIsCartOpen(true)} />
+      <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
       {children}
     </QueryClientProvider>
   );
