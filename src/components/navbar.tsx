@@ -44,7 +44,7 @@ export function Navbar({ onOpenCart }: { onOpenCart: () => void }) {
             <Coffee size={20} />
           </div>
           <span className="font-serif text-xl md:text-2xl font-bold tracking-tight text-coffee-950">
-            The Daily Grind
+            Rizcaya Coffee
           </span>
         </Link>
 

@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "The Daily Grind | Crafted Coffee, Curated Moments",
+  title: "Rizcaya Coffee | Crafted Coffee, Curated Moments",
   description: "A premium artisanal coffee experience for the modern connoisseur.",
 };
 

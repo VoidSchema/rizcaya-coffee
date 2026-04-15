@@ -54,7 +54,7 @@ export default function Home() {
         >
           <div className="space-y-4">
             <span className="text-accent-burnt font-bold tracking-[0.3em] uppercase text-sm block">Established 2026</span>
-            <h1 className="text-6xl md:text-8xl font-serif">The Daily Grind</h1>
+            <h1 className="text-6xl md:text-8xl font-serif">Rizcaya Coffee</h1>
             <p className="text-xl md:text-2xl font-light max-w-2xl mx-auto text-coffee-100">
               Crafted Coffee, Curated Moments. Experience the art of small-batch roasting in every sip.
             </p>
@@ -204,7 +204,7 @@ export default function Home() {
       <footer className="py-20 border-t border-coffee-100 bg-cream-50 text-coffee-800">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12">
           <div className="space-y-6 col-span-1 md:col-span-2">
-            <div className="font-serif text-3xl text-coffee-950 font-bold">The Daily Grind</div>
+            <div className="font-serif text-3xl text-coffee-950 font-bold">Rizcaya Coffee</div>
             <p className="max-w-xs text-coffee-600 font-light leading-relaxed">
               Crafting premium coffee experiences since 2026. Every cup is a commitment to quality and community.
             </p>
@@ -228,7 +228,7 @@ export default function Home() {
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-6 mt-20 pt-8 border-t border-coffee-100 flex flex-col md:flex-row justify-between items-center gap-4 text-xs tracking-widest uppercase text-coffee-400">
-          <p>© 2026 The Daily Grind. All rights reserved.</p>
+          <p>© 2026 Rizcaya Coffee. All rights reserved.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-coffee-950 transition-colors">Privacy</a>
             <a href="#" className="hover:text-coffee-950 transition-colors">Terms</a>
